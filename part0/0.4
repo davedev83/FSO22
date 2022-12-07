@@ -1,5 +1,0 @@
-sequenceDiagram
-User->>Browser: Types note and clicks submit
-Browser->>Server: POST request is sent to a server script with the user's input as payload
-Server->>Browser: The server processes the request and respondes with a 302 redirect going back to "/notes"
-Browser->>User: The browser reloads the notes page that contains the newly added note
